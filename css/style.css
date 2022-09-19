@@ -52,6 +52,9 @@ p{
     text-align: center;
 }
 /* navbar */
+header{
+    border-bottom: 1px solid var(--border-color);
+}
 .header-nav{
     display: flex;
     align-items: center;
@@ -91,6 +94,7 @@ p{
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+	color: var(--prymary-color-text);
 }
 .nav-list .link.current{
     color: var(--accent-color);
@@ -110,9 +114,11 @@ p{
 }
 /* Банер */
 .banner{
-    text-align: center;
-    padding-top: 200px;
+	padding-top: 200px;
     padding-bottom: 200px;
+	background-color: var(--bg-color);
+    text-align: center;
+    
 }
 .banner-title{
     max-width: 696px;
